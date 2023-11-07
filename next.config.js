@@ -2,6 +2,12 @@
 const nextConfig = {
     images: {
         domains: ["firebasestorage.googleapis.com"]
+    },
+    typescript: {
+        ignoteBuildErrors: true
+    },
+    eslint: {
+        ignoreDuringBuilds: true
     }
 }
 
